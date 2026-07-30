@@ -28,7 +28,7 @@
 - [ Development Scripts](#️-development-scripts)
 - [ How to Use](#-how-to-use)
 - [Technical Details](#-technical-details)
-- [📱 Responsive Design](#-responsive-design)
+- [ Responsive Design](#-responsive-design)
 - [🐛 Troubleshooting](#-troubleshooting)
 - [🚀 Deployment](#-deployment)
 - [🤝 Contributing](#-contributing)
