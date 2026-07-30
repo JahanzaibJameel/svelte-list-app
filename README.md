@@ -22,7 +22,7 @@
 #  Table of Contents
 
 - [Features](#-features)
-- [🚀 Quick Start](#-quick-start)
+- [Quick Start](#-quick-start)
 - [📁 Project Structure](#-project-structure)
 - [🧠 Why Svelte 5?](#-why-svelte-5)
 - [🛠️ Development Scripts](#️-development-scripts)
