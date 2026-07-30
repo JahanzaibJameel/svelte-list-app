@@ -23,7 +23,7 @@
 
 - [Features](#-features)
 - [Quick Start](#-quick-start)
-- [📁 Project Structure](#-project-structure)
+- [Project Structure](#-project-structure)
 - [🧠 Why Svelte 5?](#-why-svelte-5)
 - [🛠️ Development Scripts](#️-development-scripts)
 - [💡 How to Use](#-how-to-use)
