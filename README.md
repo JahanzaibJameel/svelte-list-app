@@ -300,7 +300,7 @@ npm run preview
 
 - ▲ Vercel
 - 🌐 Netlify
-- 📦 GitHub Pages *(adapter-static required)*
+- GitHub Pages 
 
 ---
 
