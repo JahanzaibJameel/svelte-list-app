@@ -346,7 +346,7 @@ Special thanks to:
 - ❤️ The **Svelte Team**
 - 🚀 The **SvelteKit Community**
 - ⭐ Everyone who contributes to this project
-- 💙 You, for using **TaskMaster Pro**
+-  You, for using **TaskMaster Pro**
 
 ---
 
