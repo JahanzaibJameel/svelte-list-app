@@ -29,7 +29,7 @@
 - [ How to Use](#-how-to-use)
 - [Technical Details](#-technical-details)
 - [ Responsive Design](#-responsive-design)
-- [🐛 Troubleshooting](#-troubleshooting)
+- [ Troubleshooting](#-troubleshooting)
 - [🚀 Deployment](#-deployment)
 - [ Contributing](#-contributing)
 - [ License](#-license)
