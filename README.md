@@ -282,7 +282,7 @@ If tasks are not saving:
 
 ---
 
-# 🚀 Deployment
+#  Deployment
 
 ## Build
 
