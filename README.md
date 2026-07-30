@@ -21,7 +21,7 @@
 
 #  Table of Contents
 
-- [✨ Features](#-features)
+- [Features](#-features)
 - [🚀 Quick Start](#-quick-start)
 - [📁 Project Structure](#-project-structure)
 - [🧠 Why Svelte 5?](#-why-svelte-5)
