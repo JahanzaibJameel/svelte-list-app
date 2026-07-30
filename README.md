@@ -39,7 +39,7 @@
 
 #  Features
 
-## 🎯 Core Functionality
+##  Core Functionality
 
 - ✅ **CRUD Operations** — Create, edit, delete, and complete tasks.
 - 📂 **Smart Categories** — Organize tasks into **Work**, **Personal**, **Shopping**, **Health**, and **Education**.
