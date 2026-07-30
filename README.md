@@ -31,7 +31,7 @@
 - [ Responsive Design](#-responsive-design)
 - [🐛 Troubleshooting](#-troubleshooting)
 - [🚀 Deployment](#-deployment)
-- [🤝 Contributing](#-contributing)
+- [ Contributing](#-contributing)
 - [ License](#-license)
 - [ Acknowledgments](#-acknowledgments)
 
