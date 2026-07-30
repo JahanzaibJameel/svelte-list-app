@@ -19,7 +19,7 @@
 
 ---
 
-# 📖 Table of Contents
+#  Table of Contents
 
 - [✨ Features](#-features)
 - [🚀 Quick Start](#-quick-start)
