@@ -1,4 +1,4 @@
-# 📋 TaskMaster Pro
+#  TaskMaster Pro
 
 > **Next-Generation Task Management** — Built with **Svelte 5**, **SvelteKit**, and **localStorage** for a fast, modern, and offline-ready productivity experience.
 
