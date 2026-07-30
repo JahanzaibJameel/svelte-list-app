@@ -70,7 +70,7 @@
 - Node.js **18+**
 - npm **9+** *(or pnpm 8+, Yarn 1.22+)*
 
-## 📦 Installation
+##  Installation
 
 ```bash
 # Create a new SvelteKit project
