@@ -344,7 +344,7 @@ See the **LICENSE** file for more information.
 Special thanks to:
 
 - ❤️ The **Svelte Team**
-- 🚀 The **SvelteKit Community**
+-  The **SvelteKit Community**
 -  Everyone who contributes to this project
 -  You, for using **TaskMaster Pro**
 
