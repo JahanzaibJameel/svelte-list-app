@@ -46,7 +46,7 @@
 - 🚩 **Priority Levels** — High, Medium, and Low with intuitive color coding.
 - 💾 **Persistent Storage** — Automatically saves data using **localStorage**.
 
-## 🔍 Advanced Features
+##  Advanced Features
 
 - 🔎 **Real-Time Search** — Instantly find tasks while typing.
 - 🎛️ **Advanced Filtering** — Filter by category, priority, and completion status.
