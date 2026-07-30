@@ -299,7 +299,7 @@ npm run preview
 ## Recommended Hosting
 
 - ▲ Vercel
-- 🌐 Netlify
+-  Netlify
 - GitHub Pages 
 
 ---
