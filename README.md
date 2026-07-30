@@ -37,7 +37,7 @@
 
 ---
 
-# ✨ Features
+#  Features
 
 ## 🎯 Core Functionality
 
