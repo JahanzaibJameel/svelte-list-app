@@ -1,56 +1,105 @@
-# 📋 TaskMaster Pro — SvelteKit Task Manager
+# 📋 TaskMaster Pro
 
-A modern, feature-rich task management application built with **Svelte 5** and **SvelteKit**, featuring localStorage persistence, categories, priorities, and real-time statistics.
+> **Next-Generation Task Management** — Built with **Svelte 5**, **SvelteKit**, and **localStorage** for a fast, modern, and offline-ready productivity experience.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Svelte-5.0+-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" />
-  <img src="https://img.shields.io/badge/SvelteKit-2.0+-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-ES2023-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <a href="https://svelte.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Svelte-5.0+-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte">
+  </a>
+  <a href="https://kit.svelte.dev" target="_blank">
+    <img src="https://img.shields.io/badge/SvelteKit-2.0+-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="SvelteKit">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://img.shields.io/badge/JavaScript-ES2023-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  </a>
+  <a href="https://vitejs.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Vite-6.0+-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+  </a>
 </p>
 
 ---
 
-## ✨ Features
+# 📖 Table of Contents
 
-### 🎯 Core Functionality
-- Create, edit, delete, and complete tasks
-- Task categories: Work, Personal, Shopping, Health, Education
-- Priority levels: High, Medium, Low with color indicators
-- Automatic persistence using browser localStorage
-
-### 🔍 Advanced Features
-- Real-time task search
-- Multi-filtering by category, priority, and status
-- Live productivity & completion statistics
-- Category-wise progress tracking
-- Bulk actions (clear completed / reset all)
-
-### 🎨 User Experience
-- Fully responsive (mobile, tablet, desktop)
-- Modern UI with smooth animations
-- Keyboard shortcuts for faster workflow
-- Accessible markup with ARIA support
-- Built-in productivity tips
+- [✨ Features](#-features)
+- [🚀 Quick Start](#-quick-start)
+- [📁 Project Structure](#-project-structure)
+- [🧠 Why Svelte 5?](#-why-svelte-5)
+- [🛠️ Development Scripts](#️-development-scripts)
+- [💡 How to Use](#-how-to-use)
+- [🔧 Technical Details](#-technical-details)
+- [📱 Responsive Design](#-responsive-design)
+- [🐛 Troubleshooting](#-troubleshooting)
+- [🚀 Deployment](#-deployment)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
 
 ---
 
-## 🚀 Quick Start
+# ✨ Features
 
-### Prerequisites
-- Node.js **18+** (LTS recommended)
-- npm **9+**, pnpm **8+**, or yarn **1.22+**
+## 🎯 Core Functionality
 
-### Installation
+- ✅ **CRUD Operations** — Create, edit, delete, and complete tasks.
+- 📂 **Smart Categories** — Organize tasks into **Work**, **Personal**, **Shopping**, **Health**, and **Education**.
+- 🚩 **Priority Levels** — High, Medium, and Low with intuitive color coding.
+- 💾 **Persistent Storage** — Automatically saves data using **localStorage**.
+
+## 🔍 Advanced Features
+
+- 🔎 **Real-Time Search** — Instantly find tasks while typing.
+- 🎛️ **Advanced Filtering** — Filter by category, priority, and completion status.
+- 📊 **Live Statistics** — Monitor productivity and completion rates.
+- 🧹 **Bulk Actions** — Clear completed tasks or reset everything in one click.
+
+## 🎨 User Experience
+
+- 📱 Fully responsive layout.
+- ✨ Smooth animations and transitions.
+- ⌨️ Keyboard shortcuts for faster workflow.
+- ♿ Accessible with semantic HTML and ARIA support.
+- 💡 Productivity tips built directly into the application.
+
+---
+
+# 🚀 Quick Start
+
+## 📋 Prerequisites
+
+- Node.js **18+**
+- npm **9+** *(or pnpm 8+, Yarn 1.22+)*
+
+## 📦 Installation
 
 ```bash
+# Create a new SvelteKit project
 npx sv create taskmaster-pro --template minimal --types jsdoc
-cd taskmaster-pro
-npm install
-Run Development Server
-npm run dev -- --open
-Open http://localhost:5173
 
-📁 Project Structure
+# Navigate to the project
+cd taskmaster-pro
+
+# Install dependencies
+npm install
+```
+
+## ▶️ Start Development Server
+
+```bash
+npm run dev -- --open
+```
+
+Your application will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 📁 Project Structure
+
+```text
 taskmaster-pro/
 ├── src/
 │   ├── lib/
@@ -66,112 +115,247 @@ taskmaster-pro/
 ├── vite.config.js
 ├── tsconfig.json
 └── package.json
-🛠️ Development Scripts
-npm run dev       # Start dev server
-npm run build     # Build for production
-npm run preview   # Preview build
-npm run check     # Type checking
-npm run lint      # Lint & format
-💡 How to Use
-➕ Add Tasks
-Enter task text
+```
 
-Press Enter or click Add
+---
 
-Assign category & priority
+# 🧠 Why Svelte 5?
 
-📂 Organize
-Filter by category badges
+TaskMaster Pro leverages the newest capabilities of **Svelte 5**.
 
-Change priorities
+### ⚡ Fine-Grained Reactivity
 
-Search instantly
+Uses **Runes** (`$state`, `$derived`) for predictable and reactive state management.
 
-Combine filters
+### 🎯 Modern Event Syntax
 
-🛠️ Manage
-✅ Complete tasks
+Uses:
 
-✏️ Edit tasks
+```svelte
+onclick={() => handleClick()}
+```
 
-🗑️ Delete tasks
+instead of the deprecated:
 
-🧹 Clear completed or all
+```svelte
+on:click
+```
 
-🔧 Technical Details
-Svelte 5 Features
-$state() for reactive state
+### 🚀 Better Performance
 
-$derived() for computed values
+- No Virtual DOM
+- Direct DOM updates
+- Tiny production bundles
+- Lightning-fast rendering
 
-New event syntax (onclick)
+### 🧹 Less Boilerplate
 
-Modular reusable components
+Write significantly less code while building scalable applications.
 
-State Management
-Central task store
+---
 
-Automatic localStorage sync
+# 🛠️ Development Scripts
 
-Reactive UI updates
+| Command | Description |
+|----------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build production bundle |
+| `npm run preview` | Preview production build |
+| `npm run check` | TypeScript / JSDoc checking |
+| `npm run lint` | Lint and format project |
 
-Derived statistics
+---
 
-Performance
-Minimal re-renders
+# 💡 How to Use
 
-Optimized Vite build
+## ➕ Add Tasks
 
-Small bundle size
+1. Enter a task.
+2. Press **Enter** or click **Add**.
+3. Select category and priority.
 
-📱 Responsive Breakpoints
-Device	Width
-Mobile	< 480px
-Tablet	480px – 768px
-Desktop	> 768px
-🐛 Troubleshooting
-Deprecated Event Warning
-Using `on:click` is deprecated
-✔ Use onclick instead
+---
 
-tsconfig Issue
+## 📂 Organize & Filter
+
+- Filter by category.
+- Change priority.
+- Search instantly.
+- Combine filters for precise results.
+
+Example:
+
+> High Priority + Work Tasks
+
+---
+
+## 🛠️ Manage Tasks
+
+- ✅ Mark completed.
+- ✏️ Edit tasks.
+- 🗑️ Delete tasks.
+- 🧹 Bulk clear completed tasks.
+- ♻️ Reset the entire task list.
+
+---
+
+# 🔧 Technical Details
+
+## 📦 State Management
+
+### Central Store
+
+All task data is stored inside:
+
+```text
+src/lib/stores/tasks.js
+```
+
+### Reactive Updates
+
+Built using **Svelte 5 Runes** for automatic UI updates.
+
+### Persistence
+
+Every change is synchronized with **localStorage**.
+
+---
+
+## ⚡ Performance Optimizations
+
+- Minimal component re-renders.
+- Tree shaking.
+- Code splitting.
+- Optimized production bundle.
+- Tiny JavaScript output.
+
+---
+
+# 📱 Responsive Design
+
+| Device | Breakpoint |
+|----------|------------|
+| 📱 Mobile | < 480px |
+| 📲 Tablet | 480px – 768px |
+| 🖥 Desktop | > 768px |
+
+The interface automatically adapts to all screen sizes.
+
+---
+
+# 🐛 Troubleshooting
+
+## Deprecated Event Warning
+
+Replace:
+
+```svelte
+<button on:click={handleClick}>
+```
+
+With:
+
+```svelte
+<button onclick={handleClick}>
+```
+
+---
+
+## TypeScript Configuration
+
+```json
 {
   "extends": "./.svelte-kit/tsconfig.json"
 }
-localStorage Not Working
-Avoid incognito mode
+```
 
-Check browser permissions
+---
 
-Clear cache if needed
+## localStorage Issues
 
-🚀 Deployment
+If tasks are not saving:
+
+- Enable browser storage.
+- Disable private/incognito mode.
+- Clear browser cache.
+- Refresh the page.
+
+---
+
+# 🚀 Deployment
+
+## Build
+
+```bash
 npm run build
+```
+
+## Preview
+
+```bash
 npm run preview
-Hosting
-Vercel (recommended)
+```
 
-Netlify
+## Recommended Hosting
 
-GitHub Pages / static hosting
+- ▲ Vercel
+- 🌐 Netlify
+- 📦 GitHub Pages *(adapter-static required)*
 
-🤝 Contributing
-Fork repo
+---
 
-Create feature branch
+# 🤝 Contributing
 
-Commit changes
+Contributions are always welcome!
 
-Open Pull Request
+```bash
+# Fork repository
 
-📄 License
-MIT License
+# Create a feature branch
+git checkout -b feat/amazing-feature
 
-🙏 Acknowledgments
-Svelte Team
+# Commit changes
+git commit -m "Add amazing feature"
 
-Svelte Community
+# Push branch
+git push origin feat/amazing-feature
+```
 
-You ❤️
+Finally, open a Pull Request.
 
-<p align="center"> Built with ❤️ using <strong>Svelte 5</strong><br> ⭐ Star this repo if you like it </p> ```
+Please ensure:
+
+- ✅ Lint passes
+- ✅ Type checks pass
+- ✅ Code follows project conventions
+
+---
+
+# 📄 License
+
+Distributed under the **MIT License**.
+
+See the **LICENSE** file for more information.
+
+---
+
+# 🙏 Acknowledgments
+
+Special thanks to:
+
+- ❤️ The **Svelte Team**
+- 🚀 The **SvelteKit Community**
+- ⭐ Everyone who contributes to this project
+- 💙 You, for using **TaskMaster Pro**
+
+---
+
+<p align="center">
+
+Built with ❤️ using <strong>Svelte 5</strong>
+
+<br><br>
+
+⭐ <strong>Star this repository if you find it useful!</strong>
+
+</p>
