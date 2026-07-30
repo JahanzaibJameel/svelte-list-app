@@ -304,7 +304,7 @@ npm run preview
 
 ---
 
-# 🤝 Contributing
+#  Contributing
 
 Contributions are always welcome!
 
