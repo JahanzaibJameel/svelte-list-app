@@ -30,7 +30,7 @@
 - [Technical Details](#-technical-details)
 - [ Responsive Design](#-responsive-design)
 - [ Troubleshooting](#-troubleshooting)
-- [🚀 Deployment](#-deployment)
+- [ Deployment](#-deployment)
 - [ Contributing](#-contributing)
 - [ License](#-license)
 - [ Acknowledgments](#-acknowledgments)
