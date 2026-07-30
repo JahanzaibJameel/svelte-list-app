@@ -339,7 +339,7 @@ See the **LICENSE** file for more information.
 
 ---
 
-# 🙏 Acknowledgments
+#  Acknowledgments
 
 Special thanks to:
 
