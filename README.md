@@ -48,7 +48,7 @@
 
 ##  Advanced Features
 
-- 🔎 **Real-Time Search** — Instantly find tasks while typing.
+-  **Real-Time Search** — Instantly find tasks while typing.
 - 🎛️ **Advanced Filtering** — Filter by category, priority, and completion status.
 - 📊 **Live Statistics** — Monitor productivity and completion rates.
 - 🧹 **Bulk Actions** — Clear completed tasks or reset everything in one click.
