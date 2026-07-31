@@ -166,7 +166,7 @@ Write significantly less code while building scalable applications.
 
 ---
 
-# 💡 How to Use
+#  How to Use
 
 ## ➕ Add Tasks
 
