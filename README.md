@@ -55,7 +55,7 @@
 
 ##  User Experience
 
-- 📱 Fully responsive layout.
+-  Fully responsive layout.
 - ✨ Smooth animations and transitions.
 - ⌨️ Keyboard shortcuts for faster workflow.
 - ♿ Accessible with semantic HTML and ARIA support.
