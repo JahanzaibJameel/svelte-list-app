@@ -141,7 +141,7 @@ instead of the deprecated:
 on:click
 ```
 
-### 🚀 Better Performance
+###  Better Performance
 
 - No Virtual DOM
 - Direct DOM updates
