@@ -154,7 +154,7 @@ Write significantly less code while building scalable applications.
 
 ---
 
-# 🛠️ Development Scripts
+#  Development Scripts
 
 | Command | Description |
 |----------|-------------|
