@@ -83,7 +83,7 @@ cd taskmaster-pro
 npm install
 ```
 
-## ▶️ Start Development Server
+##  Start Development Server
 
 ```bash
 npm run dev -- --open
