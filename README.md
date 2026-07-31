@@ -65,7 +65,7 @@
 
 #  Quick Start
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js **18+**
 - npm **9+** *(or pnpm 8+, Yarn 1.22+)*
