@@ -123,7 +123,7 @@ taskmaster-pro/
 
 TaskMaster Pro leverages the newest capabilities of **Svelte 5**.
 
-### ⚡ Fine-Grained Reactivity
+###  Fine-Grained Reactivity
 
 Uses **Runes** (`$state`, `$derived`) for predictable and reactive state management.
 
