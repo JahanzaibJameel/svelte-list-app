@@ -53,7 +53,7 @@
 -  **Live Statistics** — Monitor productivity and completion rates.
 -  **Bulk Actions** — Clear completed tasks or reset everything in one click.
 
-## 🎨 User Experience
+##  User Experience
 
 - 📱 Fully responsive layout.
 - ✨ Smooth animations and transitions.
