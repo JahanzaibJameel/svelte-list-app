@@ -148,7 +148,7 @@ on:click
 - Tiny production bundles
 - Lightning-fast rendering
 
-### 🧹 Less Boilerplate
+###  Less Boilerplate
 
 Write significantly less code while building scalable applications.
 
