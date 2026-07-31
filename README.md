@@ -168,7 +168,7 @@ Write significantly less code while building scalable applications.
 
 #  How to Use
 
-## ➕ Add Tasks
+##  Add Tasks
 
 1. Enter a task.
 2. Press **Enter** or click **Add**.
