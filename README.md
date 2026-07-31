@@ -119,7 +119,7 @@ taskmaster-pro/
 
 ---
 
-# 🧠 Why Svelte 5?
+#  Why Svelte 5?
 
 TaskMaster Pro leverages the newest capabilities of **Svelte 5**.
 
