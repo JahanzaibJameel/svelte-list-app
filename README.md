@@ -127,7 +127,7 @@ TaskMaster Pro leverages the newest capabilities of **Svelte 5**.
 
 Uses **Runes** (`$state`, `$derived`) for predictable and reactive state management.
 
-### 🎯 Modern Event Syntax
+###  Modern Event Syntax
 
 Uses:
 
