@@ -97,7 +97,7 @@ http://localhost:5173
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 taskmaster-pro/
