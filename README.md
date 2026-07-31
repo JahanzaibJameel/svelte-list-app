@@ -176,7 +176,7 @@ Write significantly less code while building scalable applications.
 
 ---
 
-## 📂 Organize & Filter
+##  Organize & Filter
 
 - Filter by category.
 - Change priority.
