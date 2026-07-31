@@ -243,7 +243,7 @@ The interface automatically adapts to all screen sizes.
 
 ---
 
-# 🐛 Troubleshooting
+#  Troubleshooting
 
 ## Deprecated Event Warning
 
