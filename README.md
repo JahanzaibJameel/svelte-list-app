@@ -56,7 +56,7 @@
 ##  User Experience
 
 -  Fully responsive layout.
-- ✨ Smooth animations and transitions.
+-  Smooth animations and transitions.
 - ⌨️ Keyboard shortcuts for faster workflow.
 - ♿ Accessible with semantic HTML and ARIA support.
 - 💡 Productivity tips built directly into the application.
