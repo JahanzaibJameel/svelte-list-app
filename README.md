@@ -189,7 +189,7 @@ Example:
 
 ---
 
-## 🛠️ Manage Tasks
+##  Manage Tasks
 
 - ✅ Mark completed.
 - ✏️ Edit tasks.
